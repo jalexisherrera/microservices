@@ -1,12 +1,18 @@
-package com.user.service.service;
+package com.usuario.service.service;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@service
+import com.usuario.service.entity.User;
+import com.usuario.service.repository.UserRepository;
+
+@Service
 public class UserService{
 
     @Autowired
-    private userRepository userRepository;
+    private UserRepository userRepository;
 
     public List<User> getAll(){
         return userRepository.findAll();
