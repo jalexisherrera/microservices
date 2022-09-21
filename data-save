@@ -1,0 +1,22 @@
+#insert cart
+{
+    "marca": "Kia",
+    "modelo": "picanto 2023",
+    "usuarioId": 1
+}
+
+
+#insert motorcycle
+{
+    "marca": "Kia",
+    "modelo": "picanto 2023",
+    "usuarioId": 1
+}
+
+
+
+#insert user
+{
+    "nombre": "alexis",
+    "email": "jalexis.herrera@udea.edu.co",
+}
